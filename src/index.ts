@@ -31,6 +31,9 @@ module.exports = {
         checksVoidReturn: false,
       },
     ],
+    "@typescript-eslint/no-unsafe-argument": "off",
+    "@typescript-eslint/no-confusing-void-expression": "off",
+    "@typescript-eslint/non-nullable-type-assertion-style": "off",
   },
   plugins: ["react"],
 };
